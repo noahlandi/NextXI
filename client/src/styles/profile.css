@@ -1,0 +1,113 @@
+.profile-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .profile-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 4px #e0e7ff;
+  }
+  
+  .profile-header input[type="text"] {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid #cbd5e1;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .profile-header input[type="text"]:focus {
+    border-color: #1e40af;
+  }
+  
+  .profile-section {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #1e3a8a;
+  }
+  
+  .profile-section .qualities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-section .qualities-list li {
+    background-color: #e0e7ff;
+    color: #1e40af;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .profile-section input[type="text"] {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .profile-section input[type="text"]:focus {
+    border-color: #1e40af;
+  }
+  
+  .boost-section,
+  .save-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .save-section button {
+    background-color: #16a34a;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-section button:hover {
+    background-color: #15803d;
+  }
+  
+  .save-section p {
+    margin-top: 0.75rem;
+    color: #15803d;
+    font-weight: 500;
+  }
+  

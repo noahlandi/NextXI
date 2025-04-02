@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+main {
+  @apply max-w-7xl mx-auto px-4 py-6;
+}
+
+h1 {
+  @apply text-3xl font-bold text-blue-700;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 transition;
+}
+a:hover {
+  @apply text-blue-800;
+}
